@@ -3,8 +3,17 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Gossip.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Akka.FSharp" Version="1.5.13" />
+    <PackageReference Include="Akka.Logger.Serilog" Version="1.5.12.1" />
+    <PackageReference Include="Serilog" Version="3.0.1" />
+  </ItemGroup>
 
 </Project>
