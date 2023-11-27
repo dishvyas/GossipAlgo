@@ -1,0 +1,4 @@
+/Users/dishant/Desktop/DOSP/project3/Gossip/obj/Debug/net7.0/Gossip.fsproj.AssemblyReference.cache
+/Users/dishant/Desktop/DOSP/project3/Gossip/obj/Debug/net7.0/Gossip.AssemblyInfoInputs.cache
+/Users/dishant/Desktop/DOSP/project3/Gossip/obj/Debug/net7.0/Gossip.AssemblyInfo.fs
+/Users/dishant/Desktop/DOSP/project3/Gossip/obj/Debug/net7.0/Gossip.fsproj.CoreCompileInputs.cache

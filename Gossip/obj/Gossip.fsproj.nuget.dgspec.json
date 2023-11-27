@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dishant/Desktop/DOSP/project3/Gossip/Gossip.fsproj": {}
+  },
+  "projects": {
+    "/Users/dishant/Desktop/DOSP/project3/Gossip/Gossip.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dishant/Desktop/DOSP/project3/Gossip/Gossip.fsproj",
+        "projectName": "Gossip",
+        "projectPath": "/Users/dishant/Desktop/DOSP/project3/Gossip/Gossip.fsproj",
+        "packagesPath": "/Users/dishant/.nuget/packages/",
+        "outputPath": "/Users/dishant/Desktop/DOSP/project3/Gossip/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dishant/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.401/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Akka.FSharp": {
+              "target": "Package",
+              "version": "[1.5.13, )",
+              "generatePathProperty": true
+            },
+            "Akka.Logger.Serilog": {
+              "target": "Package",
+              "version": "[1.5.12.1, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.400, )",
+              "generatePathProperty": true
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
